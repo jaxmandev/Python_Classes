@@ -20,11 +20,11 @@ class Class_name:
 ```
 ## Dog Class Example
 
-### Classes, objects and instantciation
-### How to create class
-### Syntax: class name_of_class starting with Capital letter
-### good naming convention is required
-### classes are a way to bring data and functionality together
+#### Classes, objects and instanciation
+#### How to create class
+#### Syntax: class name_of_class starting with Capital letter
+#### good naming convention is required
+#### classes are a way to bring data and functionality together
 ```
 class Dog:
 
