@@ -13,6 +13,12 @@
 ## What are classes?:
 
 - Class is the main factor that is used to implement any of these pillars
+```
+Class —> a template i.e. dog
+Method —> a defined capability of a class i.e. bark()
+Attribute —> a bit of data in a class i.e. length
+Object or instance —> a particular instance of a class i.e. missy
+```
 ### Creating a class
 ```
 class Class_name:
