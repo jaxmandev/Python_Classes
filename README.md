@@ -113,9 +113,12 @@ class Student:
         self.__name = value
 
 
-student_object = Student("Matt", "Sparta Global")
+student_object = Student("Rocky", "Golden DevOps")
 
 print("Student name is " + student_object.name)
 print("=" * 34)
 print("student works in " + student_object.company)
 ```
+### Property Decorators
+- The property decorator allows us to define Class methods that we can access like attributes. 
+- This allows us to implement getters, setters, and deleters.
