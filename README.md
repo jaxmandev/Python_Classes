@@ -62,3 +62,24 @@ print("fido changed to Big Dog -----> " + fido.animal_kind)
 print("lassie is unaffected -----> " + lassie.animal_kind)
 
 ```
+
+## Other notes
+
+```
+# fname and lname are the Person class variables such as Person(fname, lname)
+class Person:
+  def __init__(self, fname, lname): 
+  
+    self.firstname = fname
+    self.lastname = lname
+
+# always use prefix self. when defining methods 
+# because when it is then called self. liaise with the Class 
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+# use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname()
+```
